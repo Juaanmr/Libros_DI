@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>U2_Tarea1___JuanAgustinMuñozRamirez</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="casa.png" />
+    <None Remove="davinci.png" />
+    <None Remove="ies.png" />
+    <None Remove="rick 4k.jpg" />
+    <None Remove="usuario.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.1.4" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="0.3.0" />
+    <PackageReference Include="MySql.Data" Version="8.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="davinci.png" />
+    <Resource Include="ies.png" />
+    <Resource Include="rick 4k.jpg" />
+    <Resource Include="usuario.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="U2_Tarea1___JuanAgustinMuñozRamirez.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:U2_Tarea1___JuanAgustinMuñozRamirez"
+        mc:Ignorable="d"
+        Title="U2 T1 - JAMR" Height="793" Width="1353" Icon="/davinci.png">
+    <Grid Background="#262c3a" Margin="0,0,0,-6">
+        <Button x:Name="btnAñadir" Content="Añadir" HorizontalAlignment="Left" Margin="52,205,0,0" VerticalAlignment="Top" Click="btnAñadir_Click" FontSize="20"/>
+        <Button x:Name="btnConsultar" Content="Consultar" HorizontalAlignment="Left" Margin="52,273,0,0" VerticalAlignment="Top" Click="btnConsultar_Click" FontSize="20"/>
+        <Button x:Name="btnListar" Content="Listar" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="52,353,0,0" FontSize="20" Click="btnListar_Click"/>
+        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" Margin="52,439,0,0" VerticalAlignment="Top" Click="btnSalir_Click" FontSize="20"/>
+        <Button x:Name="btnPrincipal" Content="Principal" HorizontalAlignment="Left" Margin="52,140,0,0" VerticalAlignment="Top" Click="btnPrincipal_Click" FontSize="20"/>
+        <StackPanel x:Name="stk" Margin="195,100,0,3">
+            <Frame x:Name="MyFrame" Content="" Height="680" Width="1153" NavigationUIVisibility="Hidden"/>
+        </StackPanel>
+        <Rectangle Height="69" Fill="AliceBlue" Margin="10,10,10,0" Stroke="Black" VerticalAlignment="Top" Grid.ColumnSpan="4"/>
+        <Label Content="Tarea1 Unidad2 - Desarrollo de Interfaces " Margin="0,9,0,0" VerticalAlignment="Top" FontSize="30" Height="71" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Center"/>
+    </Grid>
+</Window>

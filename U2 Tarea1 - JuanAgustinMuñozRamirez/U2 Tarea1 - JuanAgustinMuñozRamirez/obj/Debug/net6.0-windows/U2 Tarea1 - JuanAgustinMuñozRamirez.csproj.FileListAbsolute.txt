@@ -1,0 +1,54 @@
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.exe
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.deps.json
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.runtimeconfig.json
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.pdb
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\ControlzEx.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\Google.Protobuf.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\MahApps.Metro.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\MaterialDesignThemes.MahApps.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\MySql.Data.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\System.Text.Json.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\ZstdSharp.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.csproj.AssemblyReference.cache
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\Añadir.g.cs
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\App.g.cs
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez_MarkupCompile.cache
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez_MarkupCompile.lref
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\App.baml
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\Añadir.baml
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\MainWindow.baml
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.g.resources
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.GeneratedMSBuildEditorConfig.editorconfig
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.AssemblyInfoInputs.cache
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.AssemblyInfo.cs
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.csproj.CoreCompileInputs.cache
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.csproj.CopyComplete
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\refint\U2 Tarea1 - JuanAgustinMuñozRamirez.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.pdb
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\U2 Tarea1 - JuanAgustinMuñozRamirez.genruntimeconfig.cache
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\ref\U2 Tarea1 - JuanAgustinMuñozRamirez.dll
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\Inicio.g.cs
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\Inicio.baml
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\Consultar.g.cs
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\Consultar.baml
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\Listar.g.cs
+D:\INSTITUTO\Desarrollo de interfaces\Tema 2\Tarea 1 Unidad 2 - XAML\U2 Tarea1 - JuanAgustinMuñozRamirez\U2 Tarea1 - JuanAgustinMuñozRamirez\obj\Debug\net6.0-windows\Listar.baml
