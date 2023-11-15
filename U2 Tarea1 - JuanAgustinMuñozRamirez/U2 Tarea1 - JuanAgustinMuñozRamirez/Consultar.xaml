@@ -10,21 +10,20 @@
     <Grid Background="#262c3a" Margin="0,10,0,0">
         <Rectangle Height="69" Fill="AliceBlue" Margin="10,10,10,0" Stroke="Black" VerticalAlignment="Top"/>
         <Label Content="Tarea1 Unidad2 - Consultar " Margin="0,9,0,0" VerticalAlignment="Top" FontSize="30" Height="71" HorizontalAlignment="Center"/>
-        <TextBox x:Name="txtTitulo" TextWrapping="Wrap" Margin="255,312,500,398" Background="White" BorderBrush="#89000000" FontSize="20" IsEnabled="{Binding TextBoxesHabilitados}"/>
+        <TextBox x:Name="txtTitulo" TextWrapping="Wrap" Margin="255,312,500,398" Background="White" BorderBrush="#89000000" FontSize="20"/>
         <Label x:Name="lblTitulo" Content="Titulo" FontSize="20" Margin="35,306,907,401" Foreground="#DDFFFFFF"/>
-        <TextBox x:Name="txtAutor" TextWrapping="Wrap" Margin="255,371,500,339" Background="White" FontSize="20" IsEnabled="False"/>
+        <TextBox x:Name="txtAutor" TextWrapping="Wrap" Margin="255,371,500,339" Background="White" FontSize="20"/>
         <Label x:Name="lblAutor" Content="Autor" FontSize="20" Margin="35,368,907,339" Foreground="#DDFFFFFF"/>
         <Label x:Name="lblEditorial" Content="Editrorial" FontSize="20" Margin="35,429,878,278" Foreground="#DDFFFFFF"/>
-        <TextBox x:Name="txtEditorial" TextWrapping="Wrap" Margin="255,432,500,278" Background="White" FontSize="20" IsEnabled="False"/>
+        <TextBox x:Name="txtEditorial" TextWrapping="Wrap" Margin="255,432,500,278" Background="White" FontSize="20"/>
         <Label x:Name="lblDescripcion" Content="Descripcion" FontSize="20" Margin="537,400,352,306" Foreground="#DDFFFFFF"/>
-        <TextBox x:Name="txtDescripcion" TextWrapping="Wrap" Margin="721,404,35,260" Background="White" FontSize="20" VerticalScrollBarVisibility="Visible" IsEnabled="False"/>
         <Label x:Name="lblFechaPub" Content="Fecha publicación" FontSize="20" Margin="35,520,800,187" Foreground="#DDFFFFFF"/>
         <Label x:Name="lblImagen" Content="Imagen" FontSize="20" Margin="537,241,389,466" Foreground="#DDFFFFFF"/>
-        <TextBox x:Name="txtImagen" TextWrapping="Wrap" Margin="720,244,36,466" Background="White" FontSize="20" IsEnabled="False"/>
+        <TextBox x:Name="txtImagen" TextWrapping="Wrap" Margin="720,244,36,466" Background="White" FontSize="20"/>
         <Label x:Name="lblPrecio" Content="Precio" FontSize="20" Margin="537,292,401,415" Foreground="#DDFFFFFF"/>
-        <TextBox x:Name="txtPrecio" TextWrapping="Wrap" Margin="720,303,36,407" Background="White" FontSize="20" IsEnabled="False"/>
+        <TextBox x:Name="txtPrecio" TextWrapping="Wrap" Margin="720,303,36,407" Background="White" FontSize="20"/>
         <Label x:Name="lblUnidadesAlma" Content="Unidades Almacen" FontSize="20" Margin="537,353,291,354" Foreground="#DDFFFFFF"/>
-        <TextBox x:Name="txtUnidadesAlma" TextWrapping="Wrap" Margin="721,356,36,354" Background="White" FontSize="20" IsEnabled="False"/>
+        <TextBox x:Name="txtUnidadesAlma" TextWrapping="Wrap" Margin="721,356,36,354" Background="White" FontSize="20"/>
         <CheckBox x:Name="chkVenta" Content="¿En Venta?" Margin="721,508,148,194" Foreground="White" FontSize="20"/>
         <Label x:Name="lblId" Content="Id" FontSize="20" Margin="35,248,907,459" Foreground="#DDFFFFFF"/>
         <TextBox x:Name="txtId" TextWrapping="Wrap" Margin="255,248,500,462" Background="White" BorderBrush="#89000000" FontSize="20" IsEnabled="False"/>
@@ -33,9 +32,9 @@
         <Button x:Name="btnBuscar" Content="Buscar" HorizontalAlignment="Left" Margin="429,131,0,0" VerticalAlignment="Top" FontSize="30" Height="52" Width="148" Background="White" BorderBrush="Black" Click="btnBuscar_Click"/>
         <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Margin="612,131,0,0" VerticalAlignment="Top" FontSize="30" Height="52" Width="166" Background="White" BorderBrush="Black" Click="btnModificar_Click"/>
         <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="818,131,0,0" VerticalAlignment="Top" FontSize="30" Height="52" Width="167" Background="White" BorderBrush="Black" Click="btnEliminar_Click"/>
-        <Button x:Name="btnLimpiar" Content="Limpiar" HorizontalAlignment="Left" Margin="312,581,0,0" VerticalAlignment="Top" FontSize="30" Height="52" Width="166" Background="White" BorderBrush="Black" Click="btnLimpiar_Click"/>
-        <TextBox x:Name="txtFechaPublicacion" TextWrapping="Wrap" Margin="255,523,500,187" Background="White" FontSize="20" IsEnabled="False"/>
-        <Button x:Name="btnActualizar" Content="Actualizar" HorizontalAlignment="Left" Margin="568,581,0,0" VerticalAlignment="Top" FontSize="30" Height="52" Width="166" Background="White" BorderBrush="Black" Click="btnActualizar_Click"/>
+        <Button x:Name="btnLimpiar" Content="Limpiar" HorizontalAlignment="Left" Margin="420,580,0,0" VerticalAlignment="Top" FontSize="30" Height="52" Width="166" Background="White" BorderBrush="Black" Click="btnLimpiar_Click"/>
+        <TextBox x:Name="txtFechaPublicacion" TextWrapping="Wrap" Margin="255,523,500,187" Background="White" FontSize="20"/>
+        <TextBox x:Name="txtDescripcion" TextWrapping="Wrap" Margin="721,415,35,239" Background="White" FontSize="20" VerticalScrollBarVisibility="Visible"/>
 
     </Grid>
 </Page>

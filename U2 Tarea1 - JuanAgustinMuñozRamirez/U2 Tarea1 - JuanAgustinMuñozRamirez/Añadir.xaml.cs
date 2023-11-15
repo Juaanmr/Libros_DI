@@ -39,7 +39,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             }
         }
 
-        private void txtTitulo_TextChanged(object sender, TextChangedEventArgs e)
+        /*private void txtTitulo_TextChanged(object sender, TextChangedEventArgs e)
         {
             ValidarCampo(txtTitulo, "Debe introducir un Titulo...");
             
@@ -48,7 +48,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
         private void txtAutor_TextChanged(object sender, TextChangedEventArgs e)
         {
             ValidarCampo(txtAutor, "Debe introducir un Autor...");
-        }
+        }*/
 
 
         // Añadimos al TextBox de Título y Autor que si no ponen nada se ponga en rojo el cuadro de texto
@@ -86,7 +86,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             {
                 // Cambiar el estilo cuando hay un error (resaltando en rojo)
                 textBox.BorderBrush = Brushes.Red;
-                textBox.Background = Brushes.LightPink;
+                textBox.Background = Brushes.Red;
             }
             else
             {
@@ -103,6 +103,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             txtTitulo.Background = System.Windows.Media.Brushes.WhiteSmoke;
             txtAutor.Clear();
             txtAutor.Background = System.Windows.Media.Brushes.WhiteSmoke;
+            //txtAutor.BorderBrush = Brushes.Lime;
             txtEditorial.Clear();
             dtpFechaPublicacion.SelectedDate = DateTime.Now;
             txtImagen.Clear();

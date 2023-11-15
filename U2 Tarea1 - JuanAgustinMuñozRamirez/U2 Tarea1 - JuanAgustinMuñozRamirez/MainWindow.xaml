@@ -8,11 +8,11 @@
         mc:Ignorable="d"
         Title="U2 T1 - JAMR" Height="793" Width="1353" Icon="/davinci.png">
     <Grid Background="#262c3a" Margin="0,0,0,-6">
-        <Button x:Name="btnAñadir" Content="Añadir" HorizontalAlignment="Left" Margin="52,205,0,0" VerticalAlignment="Top" Click="btnAñadir_Click" FontSize="20"/>
-        <Button x:Name="btnConsultar" Content="Consultar" HorizontalAlignment="Left" Margin="52,273,0,0" VerticalAlignment="Top" Click="btnConsultar_Click" FontSize="20"/>
-        <Button x:Name="btnListar" Content="Listar" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="52,353,0,0" FontSize="20" Click="btnListar_Click"/>
-        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" Margin="52,439,0,0" VerticalAlignment="Top" Click="btnSalir_Click" FontSize="20"/>
-        <Button x:Name="btnPrincipal" Content="Principal" HorizontalAlignment="Left" Margin="52,140,0,0" VerticalAlignment="Top" Click="btnPrincipal_Click" FontSize="20"/>
+        <Button x:Name="btnAñadir" Content="Añadir" HorizontalAlignment="Left" Margin="41,239,0,0" VerticalAlignment="Top" Click="btnAñadir_Click" FontSize="20" Width="110"/>
+        <Button x:Name="btnConsultar" Content="Consultar" HorizontalAlignment="Left" Margin="41,320,0,0" VerticalAlignment="Top" Click="btnConsultar_Click" FontSize="20" Width="110"/>
+        <Button x:Name="btnListar" Content="Listar" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="41,402,0,0" FontSize="20" Click="btnListar_Click" Width="110"/>
+        <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" Margin="41,500,0,0" VerticalAlignment="Top" Click="btnSalir_Click" FontSize="20" Width="110" />
+        <Button x:Name="btnPrincipal" Content="Principal" HorizontalAlignment="Left" Margin="41,160,0,0" VerticalAlignment="Top" Click="btnPrincipal_Click" FontSize="20" Background="#FFCDDC39"/>
         <StackPanel x:Name="stk" Margin="195,100,0,3">
             <Frame x:Name="MyFrame" Content="" Height="680" Width="1153" NavigationUIVisibility="Hidden"/>
         </StackPanel>

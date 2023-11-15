@@ -23,27 +23,12 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
     /// <summary>
     /// Lógica de interacción para Consultar.xaml
     /// </summary>
-    public partial class Consultar : Page, INotifyPropertyChanged
+    public partial class Consultar : Page
     {
-        private bool _textBoxesHabilitados;
-
-        public bool TextBoxesHabilitados
-        {
-            get { return _textBoxesHabilitados; }
-            set
-            {
-                if (_textBoxesHabilitados != value)
-                {
-                    _textBoxesHabilitados = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
 
         public Consultar()
         {
             InitializeComponent();
-            TextBoxesHabilitados = false;
         }
 
         private void btnBuscar_Click(object sender, RoutedEventArgs e)
@@ -211,7 +196,45 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
 
         public void ModificarLibro()
         {
-            TextBoxesHabilitados = true;
+            Libro libro = new Libro();
+            DatosLibros(libro);
+
+            try
+            {
+                string consulta = "UPDATE catalogo SET titulo = @titulo, autor = @autor, editorial = @editorial, " +
+                    "fecha_publicacion = @fecha_publicacion, imagen = @imagen, descripcion = @descripcion, precio = @precio, " +
+                    "unidades = @unidades, enventa = @enventa WHERE id = @id";
+
+                Conexion conexion = new Conexion();
+                MySqlConnection mySqlConnection = conexion.EstablecerConexion();
+
+                if (mySqlConnection == null)
+                {
+                    MessageBox.Show("No se ha podido establecer la conexión con la base de datos");
+                    return;
+                }
+
+                MySqlCommand mySqlCommand = new MySqlCommand(consulta, mySqlConnection);
+
+                // Utilizar parámetros para evitar SQL Injection
+                mySqlCommand.Parameters.AddWithValue("@titulo", libro.Titulo);
+                mySqlCommand.Parameters.AddWithValue("@autor", libro.Autor);
+                mySqlCommand.Parameters.AddWithValue("@editorial", libro.Editorial);
+                mySqlCommand.Parameters.AddWithValue("@fecha_publicacion", libro.FechaPublicacion.ToString("yyyy-MM-dd"));
+                mySqlCommand.Parameters.AddWithValue("@imagen", libro.Imagen);
+                mySqlCommand.Parameters.AddWithValue("@descripcion", libro.Descripcion);
+                mySqlCommand.Parameters.AddWithValue("@precio", libro.Precio);
+                mySqlCommand.Parameters.AddWithValue("@unidades", libro.Unidades);
+                mySqlCommand.Parameters.AddWithValue("@enventa", libro.EnVenta);
+                mySqlCommand.Parameters.AddWithValue("@id", libro.id);
+
+                mySqlCommand.ExecuteNonQuery();
+                MessageBox.Show("Libro modificado correctamente");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al modificar el libro: " + ex.Message);
+            }
         }
 
         private Libro DatosLibros(Libro libro)
@@ -264,58 +287,8 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
 
         private void btnActualizar_Click(object sender, RoutedEventArgs e)
         {
-            Libro libro = new Libro();
-            DatosLibros(libro);
-
-            try
-            {
-                string consulta = "UPDATE catalogo SET titulo = @titulo, autor = @autor, editorial = @editorial, " +
-                    "fecha_publicacion = @fecha_publicacion, imagen = @imagen, descripcion = @descripcion, precio = @precio, " +
-                    "unidades = @unidades, enventa = @enventa WHERE id = @id";
-
-                Conexion conexion = new Conexion();
-                MySqlConnection mySqlConnection = conexion.EstablecerConexion();
-
-                if (mySqlConnection == null)
-                {
-                    MessageBox.Show("No se ha podido establecer la conexión con la base de datos");
-                    return;
-                }
-
-                MySqlCommand mySqlCommand = new MySqlCommand(consulta, mySqlConnection);
-
-                // Utilizar parámetros para evitar SQL Injection
-                mySqlCommand.Parameters.AddWithValue("@titulo", libro.Titulo);
-                mySqlCommand.Parameters.AddWithValue("@autor", libro.Autor);
-                mySqlCommand.Parameters.AddWithValue("@editorial", libro.Editorial);
-                mySqlCommand.Parameters.AddWithValue("@fecha_publicacion", libro.FechaPublicacion.ToString("yyyy-MM-dd"));
-                mySqlCommand.Parameters.AddWithValue("@imagen", libro.Imagen);
-                mySqlCommand.Parameters.AddWithValue("@descripcion", libro.Descripcion);
-                mySqlCommand.Parameters.AddWithValue("@precio", libro.Precio);
-                mySqlCommand.Parameters.AddWithValue("@unidades", libro.Unidades);
-                mySqlCommand.Parameters.AddWithValue("@enventa", libro.EnVenta);
-                mySqlCommand.Parameters.AddWithValue("@id", libro.id);
-
-                mySqlCommand.ExecuteNonQuery();
-                MessageBox.Show("Libro modificado correctamente");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error al modificar el libro: " + ex.Message);
-            }
+            
         }
-
-        #region INotifyPropertyChanged
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-
-        #endregion
-
     }
 }
 

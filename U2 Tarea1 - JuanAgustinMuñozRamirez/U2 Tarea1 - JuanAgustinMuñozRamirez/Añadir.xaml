@@ -14,10 +14,10 @@
         <GroupBox Header="Datos Libro" Margin="27,114,27,98" mah:HeaderedControlHelper.HeaderFontSize="15" FontSize="15" Background="#FFF9F9F9">
             <Canvas x:Name="canvasAñadir">
                 <Button x:Name="btnAñadir" Content="Añadir" VerticalAlignment="Center" Canvas.Left="380" Canvas.Top="368" FontSize="30" Height="64" Width="186" HorizontalAlignment="Left" Click="btnAñadir_Click"/>
-                <TextBox x:Name="txtTitulo" Canvas.Left="154" TextWrapping="Wrap" Canvas.Top="23" Width="316" HorizontalAlignment="Left" VerticalAlignment="Center" TextChanged="txtTitulo_TextChanged"/>
+                <TextBox x:Name="txtTitulo" Canvas.Left="154" TextWrapping="Wrap" Canvas.Top="23" Width="316" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 
                 <Label x:Name="lblTitulo" Content="Titulo" Canvas.Left="9" Canvas.Top="17" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                <TextBox x:Name="txtAutor" Canvas.Left="591" TextWrapping="Wrap" Canvas.Top="23" Width="290" HorizontalAlignment="Left" VerticalAlignment="Center" TextChanged="txtAutor_TextChanged"/>
+                <TextBox x:Name="txtAutor" Canvas.Left="591" TextWrapping="Wrap" Canvas.Top="23" Width="290" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                 <Label x:Name="lblAutor" Content="Autor" Canvas.Left="518" Canvas.Top="17" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                 <Label x:Name="lblEditorial" Content="Editrorial" Canvas.Left="9" Canvas.Top="97" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                 <TextBox x:Name="txtEditorial" Canvas.Left="154" TextWrapping="Wrap" Canvas.Top="100" Width="180" HorizontalAlignment="Left" VerticalAlignment="Center"/>

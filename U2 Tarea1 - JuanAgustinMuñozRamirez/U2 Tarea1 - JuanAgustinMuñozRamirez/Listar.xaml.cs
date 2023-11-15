@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -41,25 +42,32 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             }
         }
 
-        private void DataGridLibros_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        private void dgvLibros_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             try
             {
                 if (dgvLibros.SelectedItem != null)
                 {
-                    Libro selectedLibro = (Libro)dgvLibros.SelectedItem;
+                    // Obtener el DataRowView desde el DataGrid
+                    DataRowView rowView = (DataRowView)dgvLibros.SelectedItem;
 
-                    txtId.Text = selectedLibro.id.ToString();
-                    txtTitulo.Text = selectedLibro.Titulo;
-                    txtEditorial.Text = selectedLibro.Editorial;
-                    txtFechaPublicacion.Text = selectedLibro.FechaPublicacion.ToString();
-                    txtImagen.Text = selectedLibro.Imagen;
-                    txtDescripcion.Text = selectedLibro.Descripcion;
-                    txtPrecio.Text = selectedLibro.Precio.ToString();
-                    txtUnidadesAlma.Text = selectedLibro.Unidades.ToString();
+                    // Obtener el objeto Libro desde el DataRowView
+                    Libro selectedLibro = rowView.Row.ItemArray[0] as Libro;
 
-                    chkVenta.IsChecked = selectedLibro.EnVenta == 1;
-                    chkVenta.IsEnabled = false;
+                    if (selectedLibro != null)
+                    {
+                        txtId.Text = selectedLibro.id.ToString();
+                        txtTitulo.Text = selectedLibro.Titulo;
+                        txtEditorial.Text = selectedLibro.Editorial;
+                        txtFechaPublicacion.Text = selectedLibro.FechaPublicacion.ToString();
+                        txtImagen.Text = selectedLibro.Imagen;
+                        txtDescripcion.Text = selectedLibro.Descripcion;
+                        txtPrecio.Text = selectedLibro.Precio.ToString();
+                        txtUnidadesAlma.Text = selectedLibro.Unidades.ToString();
+
+                        chkVenta.IsChecked = selectedLibro.EnVenta == 1;
+                        chkVenta.IsEnabled = false; // Puedes deshabilitar el CheckBox si es necesario
+                    }
                 }
             }
             catch (Exception ex)
