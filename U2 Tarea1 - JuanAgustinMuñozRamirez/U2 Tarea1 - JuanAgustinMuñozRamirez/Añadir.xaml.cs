@@ -84,14 +84,14 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
         {
             if (resaltar)
             {
-                // Cambiar el estilo cuando hay un error (resaltando en rojo)
-                textBox.BorderBrush = Brushes.Red;
+                // cambiar el estilo cuando hay un error (resaltando en rojo)
+                //textBox.BorderBrush = Brushes.Red;
                 textBox.Background = Brushes.Red;
             }
             else
             {
-                // Restaurar el estilo predeterminado
-                textBox.ClearValue(TextBox.BorderBrushProperty);
+                // restaurar el estilo predeterminado
+                //textBox.ClearValue(TextBox.BorderBrushProperty);
                 textBox.ClearValue(TextBox.BackgroundProperty);
             }
         }

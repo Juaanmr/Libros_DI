@@ -4,16 +4,15 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:U2_Tarea1___JuanAgustinMuñozRamirez"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="Listar"  Height="752" Width="1000">
+      mc:Ignorable="d" d:DesignWidth="800"
+      Title="Listar"  Height="720" Width="1000">
 
-    <Grid Background="#262c3a" Margin="0,10,0,0">
-        <DataGrid x:Name="dgvLibros" d:ItemsSource="{d:SampleData ItemCount=1}" Margin="54,85,42,0" Style="{DynamicResource MaterialDesignDataGrid}" VerticalAlignment="Top" Height="151" SelectionChanged="dgvLibros_SelectionChanged"/>
+    <Grid Height="710" Background="#262c3a" Margin="0,10,0,0">
+        <DataGrid x:Name="dgvLibros" d:ItemsSource="{d:SampleData ItemCount=1}" Margin="54,85,42,0" Style="{DynamicResource MaterialDesignDataGrid}" VerticalAlignment="Top" Height="305" SelectionChanged="dgvLibros_SelectionChanged"/>
 
         <Rectangle Height="69" Fill="AliceBlue" Margin="10,10,10,0" Stroke="Black" VerticalAlignment="Top"/>
         <Label Content="Tarea1 Unidad2 - Listar " Margin="0,9,0,0" VerticalAlignment="Top" FontSize="30" Height="71" HorizontalAlignment="Center"/>
-        <Canvas Margin="54,241,42,0">
+        <Canvas Margin="54,420,42,10"  Width="704">
             <Label x:Name="lblId" Content="Id" FontSize="20" Foreground="#DDFFFFFF" Height="34" Canvas.Left="12" Canvas.Top="10" Width="37"/>
             <TextBox x:Name="txtId" TextWrapping="Wrap" Background="White" BorderBrush="#89000000" FontSize="20" Height="32" Canvas.Left="55" Canvas.Top="12" Width="65" IsEnabled="False"/>
             <TextBox x:Name="txtTitulo" TextWrapping="Wrap" Background="White" BorderBrush="#89000000" FontSize="20" Height="32" Canvas.Left="227" Canvas.Top="12" Width="177" IsEnabled="False"/>
@@ -24,7 +23,7 @@
             <TextBox x:Name="txtEditorial" TextWrapping="Wrap" Background="White" FontSize="20" Height="32" Canvas.Left="129" Canvas.Top="62" Width="184" IsEnabled="False"/>
             <Label x:Name="lblFechaPub" Content="Fecha publicación" FontSize="20" Foreground="#DDFFFFFF" Height="34" Canvas.Left="349" Canvas.Top="60" Width="165"/>
             <Label x:Name="lblDescripcion" Content="Descripcion" FontSize="20" Foreground="#DDFFFFFF" Height="36" Canvas.Left="12" Canvas.Top="146" Width="111"/>
-            <TextBox x:Name="txtDescripcion" TextWrapping="Wrap" Background="White" FontSize="20" VerticalScrollBarVisibility="Visible" Height="32" Canvas.Left="151" Canvas.Top="150" Width="244" IsEnabled="False"/>
+            <TextBox x:Name="txtDescripcion" TextWrapping="Wrap" Background="White" FontSize="20" VerticalScrollBarVisibility="Visible" Height="55" Canvas.Left="151" Canvas.Top="150" Width="244" IsEnabled="False" HorizontalAlignment="Center" VerticalAlignment="Top"/>
             <Label x:Name="lblImagen" Content="Imagen" FontSize="20" Foreground="#DDFFFFFF" Height="36" Canvas.Left="12" Canvas.Top="108" Width="74"/>
             <TextBox x:Name="txtImagen" TextWrapping="Wrap" Background="White" FontSize="20" Height="32" Canvas.Left="129" Canvas.Top="112" Width="121" IsEnabled="False"/>
             <Label x:Name="lblPrecio" Content="Precio" FontSize="20" Foreground="#DDFFFFFF" Height="34" Canvas.Left="285" Canvas.Top="110" Width="62"/>

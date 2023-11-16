@@ -26,7 +26,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
         public Listar()
         {
             InitializeComponent();
-            Loaded += Listar_Load; // Suscribir al evento Loaded para cargar los datos al abrir la ventana
+            Loaded += Listar_Load;
         }
 
         private void Listar_Load(object sender, RoutedEventArgs e)
@@ -48,26 +48,24 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             {
                 if (dgvLibros.SelectedItem != null)
                 {
-                    // Obtener el DataRowView desde el DataGrid
-                    DataRowView rowView = (DataRowView)dgvLibros.SelectedItem;
+                    //obtengo la fila seleccionada del DataGrid
+                    DataRowView row = (DataRowView)dgvLibros.SelectedItem;
 
-                    // Obtener el objeto Libro desde el DataRowView
-                    Libro selectedLibro = rowView.Row.ItemArray[0] as Libro;
+                    //vinculo los textBox del formulario con los apartados de la base de datos
+                    txtId.Text = row["id"].ToString();
+                    txtTitulo.Text = row["titulo"].ToString();
+                    txtAutor.Text = row["autor"].ToString() ;
+                    txtEditorial.Text = row["editorial"].ToString();
+                    txtFechaPublicacion.Text = row["fecha_publicacion"].ToString();
+                    txtImagen.Text = row["imagen"].ToString();
+                    txtDescripcion.Text = row["descripcion"].ToString();
+                    txtPrecio.Text = row["precio"].ToString();
+                    txtUnidadesAlma.Text = row["unidades"].ToString();
 
-                    if (selectedLibro != null)
-                    {
-                        txtId.Text = selectedLibro.id.ToString();
-                        txtTitulo.Text = selectedLibro.Titulo;
-                        txtEditorial.Text = selectedLibro.Editorial;
-                        txtFechaPublicacion.Text = selectedLibro.FechaPublicacion.ToString();
-                        txtImagen.Text = selectedLibro.Imagen;
-                        txtDescripcion.Text = selectedLibro.Descripcion;
-                        txtPrecio.Text = selectedLibro.Precio.ToString();
-                        txtUnidadesAlma.Text = selectedLibro.Unidades.ToString();
-
-                        chkVenta.IsChecked = selectedLibro.EnVenta == 1;
-                        chkVenta.IsEnabled = false; // Puedes deshabilitar el CheckBox si es necesario
-                    }
+                    // Para columnas booleanas, como "enventa"
+                    bool enVenta = (bool)row["enventa"];
+                    chkVenta.IsChecked = enVenta;
+                    chkVenta.IsEnabled = false;
                 }
             }
             catch (Exception ex)
