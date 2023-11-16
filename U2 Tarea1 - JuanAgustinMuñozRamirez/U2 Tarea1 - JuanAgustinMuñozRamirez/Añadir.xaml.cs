@@ -25,7 +25,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
         public Añadir()
         {
             InitializeComponent();
-            dtpFechaPublicacion.SelectedDate = DateTime.Now; // Ajusta el valor de la fecha de publicación
+            dtpFechaPublicacion.SelectedDate = DateTime.Now; //ajusto el valor de la fecha de publicación
         }
 
         // Validación del apartado Titulo y Autor con la herramienta ErrorProvider
@@ -80,6 +80,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             }
         }
 
+        // metodo para cuando el text box autor y titulo este vacio se ponga el fondo en rojo
         private void CambiarEstiloTextBox(TextBox textBox, bool resaltar)
         {
             if (resaltar)
@@ -150,8 +151,6 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
 
             return libro;
         }
-
-        
     }
 }
 

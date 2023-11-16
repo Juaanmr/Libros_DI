@@ -31,6 +31,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             InitializeComponent();
         }
 
+        // boton buscar para cuando le da busque por id y titulo
         private void btnBuscar_Click(object sender, RoutedEventArgs e)
         {
             if (!string.IsNullOrEmpty(txtBuscar.Text) && int.TryParse(txtBuscar.Text, out _))
@@ -69,6 +70,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             return libro;
         }
 
+        // metodo para buscar por titulo 
         private void BuscarPorTitulo()
         {
             Libro libro = new Libro();
@@ -102,6 +104,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             }
         }
 
+        // metodo para buscar por id 
         private void BuscarPorId()
         {
             Libro libro = new Libro();
@@ -159,6 +162,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             LimpiarFormulario();
         }
 
+        // boton para limpiar el formulario de los fatos que tengan los text box
         private void LimpiarFormulario()
         {
             txtBuscar.Clear();
@@ -175,6 +179,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             chkVenta.IsChecked = false;
         }
 
+        // boton eliminar un libro
         private void btnEliminar_Click(object sender, RoutedEventArgs e)
         {
             if (int.TryParse(txtBuscar.Text, out int id))
@@ -185,15 +190,19 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             }
             else
             {
-                MessageBox.Show("Introduce un ID válido para eliminar.");
+                DaoLibro daoLibro = new DaoLibro();
+                daoLibro.EliminarPorTitulo(txtBuscar.Text);
+                LimpiarFormulario();
             }
         }
 
+        //boton modificar un libro 
         private void btnModificar_Click(object sender, RoutedEventArgs e)
         {
             ModificarLibro();
         }
 
+        // metodo para modificar un libro
         public void ModificarLibro()
         {
             Libro libro = new Libro();
@@ -283,11 +292,6 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             libro.EnVenta = chkVenta.IsChecked ?? false ? (byte)1 : (byte)0;
 
             return libro;
-        }
-
-        private void btnActualizar_Click(object sender, RoutedEventArgs e)
-        {
-            
         }
     }
 }

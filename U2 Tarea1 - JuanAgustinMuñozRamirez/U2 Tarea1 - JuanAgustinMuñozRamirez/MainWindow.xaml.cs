@@ -20,32 +20,38 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
     /// </summary>
     public partial class MainWindow : Window
     {
+        //pongo como pantalla principal la ventana de inicio 
         public MainWindow()
         {
             InitializeComponent();
             MyFrame.NavigationService.Navigate(new Inicio());
         }
 
+        //vinculo la ventana de inicio con el boton principal 
         private void btnPrincipal_Click(object sender, RoutedEventArgs e)
         {
             MyFrame.NavigationService.Navigate(new Inicio());
         }
 
+        //vinculo la ventana de añadir con el boton añadir 
         private void btnAñadir_Click(object sender, RoutedEventArgs e)
         {
             MyFrame.NavigationService.Navigate(new Añadir());
         }
 
+        //vinculo la ventana de consultar con el boton consultar 
         private void btnConsultar_Click(object sender, RoutedEventArgs e)
         {
             MyFrame.NavigationService.Navigate(new Consultar());
         }
 
+        //vinculo la ventana de listar con el boton listar 
         private void btnListar_Click(object sender, RoutedEventArgs e)
         {
             MyFrame.NavigationService.Navigate(new Listar());
         }
 
+        //vinculo en el boton salir cerrar la apalicacion con un menssaje de aviso
         private void btnSalir_Click(object sender, RoutedEventArgs e)
         {
             if(MessageBox.Show("Seguro que desea cerrar la aplicacion", "Salir", MessageBoxButton.YesNo) == MessageBoxResult.Yes)

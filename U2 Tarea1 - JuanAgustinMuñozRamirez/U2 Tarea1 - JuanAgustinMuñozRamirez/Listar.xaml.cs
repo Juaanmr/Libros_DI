@@ -29,6 +29,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             Loaded += Listar_Load;
         }
 
+        // llamo al metodo que esta en daoLibro para poder listar la tabla de la base de datos con sus campos
         private void Listar_Load(object sender, RoutedEventArgs e)
         {
             try
@@ -42,6 +43,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez
             }
         }
 
+        // vinculo los text box con los campos de el grid
         private void dgvLibros_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             try

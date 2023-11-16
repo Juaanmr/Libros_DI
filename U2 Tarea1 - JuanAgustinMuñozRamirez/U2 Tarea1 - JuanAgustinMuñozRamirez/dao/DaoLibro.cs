@@ -13,6 +13,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez.dao
 {
     internal class DaoLibro
     {
+        // metodo para insertar libro
         public void InsertarLibro(Libro libro)
         {
             try
@@ -45,6 +46,7 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez.dao
             }
         }
 
+        // metodo eliminar por id
         public void EliminarPorId(int id)
         {
             try
@@ -73,6 +75,36 @@ namespace U2_Tarea1___JuanAgustinMuñozRamirez.dao
             }
         }
 
+        // metodo eliminar por titulo
+        public void EliminarPorTitulo(String titulo)
+        {
+            try
+            {
+                string consulta = "DELETE FROM catalogo WHERE titulo = @titulo";
+
+                Conexion objetoConexion = new Conexion();
+                MySqlConnection conexion = objetoConexion.EstablecerConexion();
+
+                MySqlCommand myCommand = new MySqlCommand(consulta, conexion);
+                myCommand.Parameters.AddWithValue("@titulo", titulo);
+
+                if (conexion.State == ConnectionState.Open)
+                {
+                    myCommand.ExecuteNonQuery();
+                    MessageBox.Show("¡Libro eliminado exitosamente!", "ÉXITO");
+                }
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error de MySQL: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        // metodo listar datos
         public void ListarDatos(DataGrid dataGrid)
         {
             string consulta = "SELECT * FROM appevent_di.catalogo;";
